@@ -3,7 +3,10 @@ import pickle
 
 app = Flask(__name__)
 
-movies = pickle.load(open("movies.pkl", "rb"))
+import pandas as pd
+import pickle
+
+movies = pd.read_csv("movies_data.csv")
 similarity = pickle.load(open("similarity.pkl", "rb"))
 
 def recommend(movie):
