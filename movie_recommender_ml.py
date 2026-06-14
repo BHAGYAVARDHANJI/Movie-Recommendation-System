@@ -52,5 +52,3 @@ recommend("Avatar")
 
 import pickle
 
-pickle.dump(movies, open("movies_data.csv", "wb"))
-pickle.dump(similarity, open("similarity.pkl", "wb"))
