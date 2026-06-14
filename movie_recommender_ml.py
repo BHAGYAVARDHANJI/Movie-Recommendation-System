@@ -1,54 +1,37 @@
+"""
+Movie Recommender ML - Training Script
+Uses movies_data.csv to build and test the recommendation model.
+Run this script locally to test the ML logic.
+The app.py runs this logic automatically on startup.
+"""
 import pandas as pd
-
-movies = pd.read_csv("tmdb_5000_movies.csv")
-credits = pd.read_csv("tmdb_5000_credits.csv")
-
-print(movies.shape)
-print(credits.shape)
-movies = movies.merge(credits, on="title")
-movies = movies[
-    [
-        "movie_id",
-        "title",
-        "overview",
-        "genres",
-        "keywords",
-        "cast",
-        "crew"
-    ]
-]
-movies["overview"] = movies["overview"].fillna("")
-
-movies["tags"] = (
-    movies["overview"].astype(str)
-    + " "
-    + movies["genres"].astype(str)
-    + " "
-    + movies["keywords"].astype(str)
-)
-
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-cv = CountVectorizer(max_features=5000, stop_words="english")
 
-vectors = cv.fit_transform(movies["tags"]).toarray()
+movies = pd.read_csv("movies_data.csv")
+movies['combined'] = movies['Genre'] + ' ' + movies['Cast'] + ' ' + movies['Title']
 
+vectorizer = TfidfVectorizer(max_features=5000, stop_words='english')
+vectors = vectorizer.fit_transform(movies['combined'])
 similarity = cosine_similarity(vectors)
-def recommend(movie):
-    movie_index = movies[movies["title"] == movie].index[0]
 
+def recommend(movie_title, n=5):
+    match = movies[movies['Title'].str.lower() == movie_title.lower()]
+    if match.empty:
+        match = movies[movies['Title'].str.lower().str.contains(movie_title.lower())]
+    if match.empty:
+        print(f"Movie '{movie_title}' not found.")
+        return
+    movie_index = match.index[0]
     distances = similarity[movie_index]
+    movie_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:n+1]
+    print(f"\nBecause you liked '{movies.iloc[movie_index]['Title']}':")
+    for rank, (i, score) in enumerate(movie_list, 1):
+        row = movies.iloc[i]
+        print(f"  {rank}. {row['Title']} ({row['Year']}) - {row['Genre']} | ⭐{row['Rating']} | Match: {score*100:.1f}%")
 
-    movie_list = sorted(
-        list(enumerate(distances)),
-        reverse=True,
-        key=lambda x: x[1]
-    )[1:6]
-
-    for i in movie_list:
-        print(movies.iloc[i[0]].title)
-print(similarity.shape)
-recommend("Avatar")
-
-import pickle
-
+if __name__ == "__main__":
+    print(f"Loaded {len(movies)} movies\n")
+    recommend("Inception")
+    recommend("The Godfather")
+    recommend("Toy Story")

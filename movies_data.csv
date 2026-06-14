@@ -1,11 +1,148 @@
 Title,Genre,Cast,Rating,Year
-Inception,Sci-Fi,DiCaprio,8.8,2010
-The Matrix,Sci-Fi,Keanu,8.7,1999
-Dark Knight,Action,Bale,8.4,2012
-Interstellar,Sci-Fi,McConaughey,8.6,2014
-Avatar,Action,Worthington,7.8,2009
-Titanic,Drama,DiCaprio,7.8,1997
-Forrest Gump,Drama,Hanks,8.8,1994
-Pulp Fiction,Crime,Travolta,8.9,1994
-The Shawshank Redemption,Drama,Robbins,9.3,1994
-Gladiator,Action,Crowe,8.5,2000
+Inception,Sci-Fi Thriller,DiCaprio Nolan dreams,8.8,2010
+The Matrix,Sci-Fi Action,Keanu Reeves Laurence Fishburne,8.7,1999
+The Dark Knight,Action Crime,Bale Ledger Nolan Gotham,8.4,2008
+Interstellar,Sci-Fi Drama,McConaughey Nolan space time,8.6,2014
+Avatar,Action Adventure,Worthington Saldana Cameron aliens,7.8,2009
+Titanic,Drama Romance,DiCaprio Winslet Cameron love ship,7.8,1997
+Forrest Gump,Drama Comedy,Hanks romance history life,8.8,1994
+Pulp Fiction,Crime Thriller,Travolta Jackson Tarantino,8.9,1994
+The Shawshank Redemption,Drama,Robbins Freeman prison hope,9.3,1994
+Gladiator,Action Drama,Crowe Phoenix Rome revenge,8.5,2000
+The Godfather,Crime Drama,Pacino Brando Coppola mafia,9.2,1972
+The Silence of the Lambs,Thriller Crime,Foster Hopkins serial killer,8.6,1991
+Schindler's List,Drama History,Neeson Kingsley Spielberg war,8.9,1993
+The Lord of the Rings: The Fellowship of the Ring,Fantasy Adventure,Wood McKellen Jackson,8.8,2001
+The Lord of the Rings: The Return of the King,Fantasy Adventure,Wood McKellen Mortensen,9.0,2003
+Fight Club,Drama Thriller,Pitt Norton Fincher,8.8,1999
+Goodfellas,Crime Drama,De Niro Pesci Scorsese mafia,8.7,1990
+The Avengers,Action Superhero,Downey Hemsworth superhero Marvel,8.0,2012
+Iron Man,Action Superhero,Downey superhero Marvel technology,7.9,2008
+Spider-Man,Action Superhero,Maguire Dunst superhero Marvel,7.3,2002
+Batman Begins,Action Superhero,Bale Nolan superhero Gotham,8.2,2005
+The Dark Knight Rises,Action Superhero,Bale Nolan superhero Gotham,8.4,2012
+Avengers: Infinity War,Action Superhero,Downey Hemsworth Thanos Marvel,8.4,2018
+Avengers: Endgame,Action Superhero,Downey Hemsworth time travel Marvel,8.4,2019
+Captain America: Civil War,Action Superhero,Evans Downey superhero Marvel,7.8,2016
+Doctor Strange,Action Superhero,Cumberbatch magic Marvel,7.5,2016
+Thor,Action Superhero,Hemsworth Portman Marvel mythology,7.0,2011
+Black Panther,Action Superhero,Boseman Africa Marvel,7.3,2018
+Guardians of the Galaxy,Action Comedy,Pratt Saldana Marvel space,8.0,2014
+Jurassic Park,Adventure Sci-Fi,Neill Goldblum Spielberg dinosaurs,8.1,1993
+E.T. the Extra-Terrestrial,Drama Sci-Fi,Thomas Spielberg alien friendship,7.9,1982
+Star Wars: A New Hope,Sci-Fi Adventure,Hamill Ford Lucas space,8.6,1977
+Star Wars: The Empire Strikes Back,Sci-Fi Adventure,Hamill Ford Lucas space,8.7,1980
+Star Wars: Return of the Jedi,Sci-Fi Adventure,Hamill Ford Lucas space,8.3,1983
+The Lion King,Animation Drama,Broderick Jones Disney Africa,8.5,1994
+Toy Story,Animation Comedy,Hanks Allen Disney Pixar toys,8.3,1995
+Finding Nemo,Animation Adventure,Brooks Dory Pixar ocean,8.1,2003
+The Dark Knight Returns,Action Crime,Bale Ledger Nolan Gotham,8.4,2008
+Joker,Drama Crime,Phoenix Todd Arthur Batman,8.4,2019
+John Wick,Action Crime,Reeves assassin revenge,7.4,2014
+Mad Max: Fury Road,Action Adventure,Hardy Theron dystopian,8.1,2015
+The Revenant,Adventure Drama,DiCaprio survival wilderness,8.0,2015
+Django Unchained,Western Drama,Foxx Waltz Tarantino slavery,8.4,2012
+Inglourious Basterds,War Drama,Pitt Waltz Tarantino World War,8.3,2009
+Kill Bill,Action Thriller,Thurman Tarantino revenge,8.1,2003
+Reservoir Dogs,Crime Thriller,Keitel Buscemi Tarantino heist,8.3,1992
+Blade Runner,Sci-Fi Thriller,Ford Hauer Scott future android,8.1,1982
+Blade Runner 2049,Sci-Fi Thriller,Gosling Ford Villeneuve future,8.0,2017
+Alien,Horror Sci-Fi,Weaver Scott space creature,8.4,1979
+Aliens,Action Sci-Fi,Weaver Cameron space creature,8.3,1986
+Terminator 2,Action Sci-Fi,Schwarzenegger Hamilton Cameron robot,8.5,1991
+RoboCop,Action Sci-Fi,Weller Verhoeven robot future,7.6,1987
+Total Recall,Action Sci-Fi,Schwarzenegger Verhoeven Mars,7.5,1990
+The Truman Show,Drama Comedy,Carrey Weir reality television,8.1,1998
+Eternal Sunshine of the Spotless Mind,Drama Romance,Carrey Winslet memory love,8.3,2004
+Her,Drama Romance,Phoenix Johansson AI technology love,8.0,2013
+Ex Machina,Sci-Fi Thriller,Isaac Vikander AI robot,7.7,2014
+The Social Network,Drama Biography,Eisenberg Timberlake Fincher Facebook,7.7,2010
+Whiplash,Drama Music,Teller Simmons Fletcher drumming,8.5,2014
+La La Land,Drama Musical,Gosling Stone Chazelle music romance,8.0,2016
+1917,War Drama,MacKenzie Chapman Mendes World War,8.3,2019
+Dunkirk,War Action,Hardy Murphy Nolan World War rescue,7.9,2017
+Saving Private Ryan,War Drama,Hanks Spielberg World War,8.6,1998
+Braveheart,Drama History,Gibson Wallace Scotland freedom,8.3,1995
+Troy,Action Drama,Pitt Bana Bloom Greece war,7.2,2004
+300,Action Drama,Butler Greece Sparta war,7.6,2006
+Apocalypse Now,War Drama,Sheen Brando Coppola Vietnam,8.4,1979
+Full Metal Jacket,War Drama,Modine Ermey Kubrick Vietnam,8.3,1987
+Parasite,Drama Thriller,Kang-ho Song Joon-ho Bong class,8.5,2019
+Oldboy,Thriller Mystery,Min-sik Choi Chan-wook Park,8.4,2003
+City of God,Crime Drama,Rodrigues Meirelles Brazil favela,8.6,2002
+Pan's Labyrinth,Fantasy Drama,Lopez Guillermo del Toro,8.2,2006
+Life is Beautiful,Drama Comedy,Benigni Italy World War Holocaust,8.6,1997
+Spirited Away,Animation Fantasy,Hiiragi Miyazaki Japan spirit,8.6,2001
+Princess Mononoke,Animation Fantasy,Minami Miyazaki Japan forest spirit,8.4,1997
+Akira,Animation Sci-Fi,Iwata Otomo Japan cyberpunk,8.0,1988
+Your Name,Animation Romance,Kamishiraishi Shinkai Japan,8.4,2016
+Memento,Thriller Mystery,Pearce Nolan memory,8.4,2000
+Shutter Island,Thriller Mystery,DiCaprio Scorsese island asylum,8.2,2010
+Gone Girl,Thriller Drama,Affleck Pike Fincher marriage,8.1,2014
+The Prestige,Drama Mystery,Bale Jackman Nolan magic,8.5,2006
+The Usual Suspects,Crime Mystery,Spacey Singer,8.5,1995
+Se7en,Crime Thriller,Pitt Freeman Fincher serial killer,8.6,1995
+Zodiac,Crime Thriller,Gyllenhaal Downey Fincher serial killer,7.7,2007
+Heat,Crime Action,De Niro Pacino Mann heist,8.2,1995
+The Departed,Crime Drama,Nicholson Damon DiCaprio Scorsese,8.5,2006
+Catch Me If You Can,Crime Drama,DiCaprio Hanks Spielberg fraud,8.1,2002
+Wolf of Wall Street,Drama Comedy,DiCaprio Hill Scorsese money,8.2,2013
+American Gangster,Crime Drama,Washington Crowe Scott gangster,7.8,2007
+Scarface,Crime Drama,Pacino De Palma drug cartel,8.3,1983
+Casino,Crime Drama,De Niro Stone Scorsese Las Vegas,8.2,1995
+Once Upon a Time in America,Crime Drama,De Niro Woods Leone mafia,8.4,1984
+No Country for Old Men,Crime Thriller,Bardem Jones Brolin Coen,8.1,2007
+Fargo,Crime Comedy,McDormand Macy Coen Minnesota,8.1,1996
+The Big Lebowski,Comedy Crime,Bridges Goodman Coen bowling,8.1,1998
+O Brother Where Art Thou,Comedy Adventure,Clooney Turturro Coen,7.7,2000
+True Grit,Western Drama,Bridges Damon Cogburn Coen,7.6,2010
+The Hateful Eight,Western Thriller,Jackson Russell Tarantino,7.8,2015
+Once Upon a Time in the West,Western Drama,Fonda Bronson Leone,8.5,1968
+The Good the Bad and the Ugly,Western Action,Eastwood Wallach Leone,8.8,1966
+Unforgiven,Western Drama,Eastwood Hackman Freeman,8.2,1992
+Dances with Wolves,Western Drama,Costner Native America,7.0,1990
+There Will Be Blood,Drama History,Day-Lewis Anderson oil,8.2,2007
+Nightcrawler,Thriller Drama,Gyllenhaal crime media Los Angeles,7.9,2014
+Drive,Crime Drama,Gosling Mulligan Refn Los Angeles,7.8,2011
+Taxi Driver,Crime Drama,De Niro Shepherd Scorsese New York,8.2,1976
+Rear Window,Thriller Mystery,Stewart Kelly Hitchcock suspense,8.5,1954
+Vertigo,Thriller Mystery,Stewart Novak Hitchcock obsession,8.3,1958
+Psycho,Horror Thriller,Perkins Leigh Hitchcock,8.5,1960
+The Birds,Horror Thriller,Hedren Pleshette Hitchcock birds,7.7,1963
+North by Northwest,Thriller Action,Grant Saint Mason Hitchcock,8.3,1959
+Citizen Kane,Drama Biography,Welles classic cinema masterpiece,8.3,1941
+Casablanca,Drama Romance,Bogart Bergman Curtiz,8.5,1942
+Sunset Boulevard,Drama Noir,Holden Swanson Wilder Hollywood,8.4,1950
+Singin in the Rain,Musical Comedy,Kelly Reynolds Donen,8.3,1952
+Some Like It Hot,Comedy Romance,Monroe Lemmon Wilder,8.2,1959
+The Apartment,Drama Comedy,Lemmon MacLaine Wilder,8.3,1960
+Chinatown,Mystery Thriller,Nicholson Dunaway Polanski Los Angeles,8.2,1974
+One Flew Over the Cuckoos Nest,Drama,Nicholson Fletcher Forman asylum,8.7,1975
+Network,Drama,Finch Dunaway Lumet television media,8.1,1976
+Apocalypse,War Drama,Sheen Brando Vietnam,8.4,1979
+Rain Man,Drama,Hoffman Cruise Levinson autism,7.9,1988
+Good Will Hunting,Drama,Damon Williams Van Sant Boston,8.3,1997
+American Beauty,Drama,Spacey Bening Mendes suburbia,8.3,1999
+A Beautiful Mind,Drama Biography,Crowe Howard mathematics,8.2,2001
+The Pianist,Drama History,Brody Polanski World War Warsaw,8.5,2002
+Million Dollar Baby,Drama Sport,Eastwood Freeman Swank boxing,8.1,2004
+Crash,Drama,Haggis race relations Los Angeles,7.7,2004
+Brokeback Mountain,Drama Romance,Ledger Gyllenhaal Lee cowboys love,7.7,2005
+The Hurt Locker,War Drama,Renner Bigelow Iraq War,7.5,2008
+The King's Speech,Drama Biography,Firth Rush Hooper speech,8.0,2010
+Black Swan,Drama Thriller,Portman Kunis Aronofsky ballet,8.0,2010
+The Artist,Drama Comedy,Dujardin Bejo Hazanavicius silent film,7.9,2011
+Argo,Drama Thriller,Affleck Goodman Cranston Iran hostage,7.7,2012
+12 Years a Slave,Drama History,Ejiofor Fassbender McQueen slavery,8.1,2013
+Birdman,Drama Comedy,Keaton Norton Stone Inarritu Broadway,7.7,2014
+Spotlight,Drama Biography,Ruffalo McAdams McCarthy journalism,8.1,2015
+Moonlight,Drama,Rhodes Hibbert Jenkins identity,7.4,2016
+The Shape of Water,Fantasy Drama,Hawkins Shannon del Toro creature,7.3,2017
+Green Book,Drama Biography,Viggo Mortensen Ali Farrelly race,8.2,2018
+Knives Out,Mystery Thriller,Craig Evans Curtis Johnson detective,7.9,2019
+Tenet,Sci-Fi Action,Washington Pattinson Nolan time,7.3,2020
+Soul,Animation Drama,Foxx Fey Docter Pixar music jazz,8.1,2020
+Dune,Sci-Fi Adventure,Timothee Chalamet Rebecca Ferguson Villeneuve desert,8.0,2021
+The Batman,Action Crime,Pattinson Kravitz Reeves Gotham dark,7.8,2022
+Top Gun Maverick,Action Drama,Cruise Kosinski fighter jet military,8.3,2022
+Everything Everywhere All at Once,Sci-Fi Comedy,Yeoh Hsu Scheinert multiverse,8.0,2022

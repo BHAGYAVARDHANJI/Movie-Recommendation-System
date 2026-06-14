@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Recommendation System</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
@@ -8,31 +10,60 @@
 
 <div class="container">
 
-    <h1>🎬 Movie Recommendation System</h1>
+    <div class="hero">
+        <h1>🎬 Movie Recommender</h1>
+        <p class="subtitle">Discover movies similar to your favorites using Machine Learning</p>
+    </div>
 
-    <p class="subtitle">
-        Find movies similar to your favorites using Machine Learning
-    </p>
-
-    <form method="POST">
-        <input type="text" name="movie" placeholder="Enter movie name">
-        <button type="submit">Recommend</button>
-    </form>
-   
-
-    <p>Try: Inception, Titanic, Gladiator</p>
-
-    {% if recommendations %}
-    <h2>Recommended Movies</h2>
-
-    <div class="movies-container">
-        {% for movie in recommendations %}
-        <div class="card">
-            <h3>{{ movie }}</h3>
+    <form method="POST" class="search-form">
+        <div class="search-box">
+            <input
+                type="text"
+                name="movie"
+                placeholder="Enter a movie name..."
+                value="{{ searched_movie }}"
+                list="movie-list"
+                autocomplete="off"
+            >
+            <datalist id="movie-list">
+                {% for m in all_movies %}
+                <option value="{{ m }}">
+                {% endfor %}
+            </datalist>
+            <button type="submit">🔍 Recommend</button>
         </div>
-        {% endfor %}
+        <p class="hint">Try: Inception, The Dark Knight, Parasite, Titanic, Pulp Fiction</p>
+    </form>
+
+    {% if error %}
+    <div class="error-box">
+        <span>⚠️</span> {{ error }}
     </div>
     {% endif %}
+
+    {% if recommendations %}
+    <div class="results-section">
+        <h2>Because you liked <span class="highlight">{{ searched_movie }}</span></h2>
+        <div class="movies-container">
+            {% for movie in recommendations %}
+            <div class="card">
+                <div class="card-top">
+                    <span class="genre-badge">{{ movie.genre.split()[0] }}</span>
+                    <span class="year">{{ movie.year }}</span>
+                </div>
+                <h3 class="movie-title">{{ movie.title }}</h3>
+                <div class="rating">
+                    ⭐ {{ movie.rating }} / 10
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <footer>
+        <p>Built with Python · Flask · Scikit-learn · TF-IDF · Cosine Similarity</p>
+    </footer>
 
 </div>
 
